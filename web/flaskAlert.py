@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def front_page():
-	return "Hello World"
+	return "Hello World!!!!!!!!"
 
 @app.route('/enroll', methods = ['GET', 'POST'])
 def enroll_number():
